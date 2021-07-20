@@ -1,24 +1,20 @@
-//require files we will be needing 
 
-//fs is for writing the file
 const fs = require('fs');
 
-//inquirer so that it will ask questions 
 const inquirer = require('inquirer');
-// we need these constructors
 const Engineer = require('./lib/engineer');
 const Manager = require('./lib/manager');
 const Intern = require('./lib/intern');
 
 const team = [];
 
-//function to start questions and start to generate html
+
 function init() {
     startGenhtml();
     addMember();
 }
 
-//this function handles the questions that the user will be prompted with
+
 function addMember(){
     inquirer.prompt([{
         //
@@ -42,10 +38,7 @@ function addMember(){
             message: "What is team member's email?",
             name: 'email',
         }])
-        //after these series of question are ran .then allows this code to be exectued 
-        //IF Engineer is the position it will ask for github username
-        //ELSE if position is set to manager it will ask for office number
-        //else it will ask for school number since Intern is the only position left 
+
     .then(function({name, position, id, email}) {
         let positionInfo = '';
         if (position === 'Engineer'){
