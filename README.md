@@ -11,9 +11,10 @@ This app will allow the user to quickly create profiles for different team membe
 - [Testing](#test)
 - [Questions](#questions)
 ## Installation
-1) Download the contents of each file and folder. 2) Instal Inquirer package depency. 3) or simply copy the contents of the package.json in the app, and then run "npm i" for the proper dependencies to be installed.
+1) Download the contents of each file and folder. 2) Install Inquirer package depency. 3) or simply copy the contents of the package.json in the app, and then run "npm i" for the proper dependencies to be installed.
 ## Usage
-[Click](https://drive.google.com/file/d/11PajUS_RKGp2vCGpsWRkz2z6UrcOxdLL/view) this link watch video walkthrough for this app. 
+- [Click](https://drive.google.com/file/d/11PajUS_RKGp2vCGpsWRkz2z6UrcOxdLL/view) this link watch video walkthrough for this app. 
+- ![Screenshot](assets/team-profile-generator-screenshot.png)
 ## License
 This application is under the MIT license.  
 ## Contributors
